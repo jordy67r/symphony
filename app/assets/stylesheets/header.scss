@@ -1,0 +1,40 @@
+.header {
+	box-shadow: $shadow;
+	width: 100%;
+	margin-bottom: 80px;
+}
+.logo {
+	padding: 6px;
+	img {
+		float: left;
+	}
+}
+.nav {
+	position: relative;
+	ul {
+		position: absolute;
+		right: 0;
+		top: 40px;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li {
+			padding: 0 15px;
+			display: inline-block;
+			a {
+				text-decoration: none;
+				color: #666;
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+		}
+	}
+}
+/*Index Page*/
+.home_header_wrapper {
+	background-image: image-url('header.jpg');
+}
+.home_header {
+	padding: 120px 0 20px;
+	text-align: center;
+}

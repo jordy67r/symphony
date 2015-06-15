@@ -1,0 +1,167 @@
+.head_text {
+	h1 {
+		color: $blue;
+		font-family: 'Volkhov',serif;
+	}
+	h2 {
+	color: #005D88;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 0;
+  float: left;
+  line-height: 32px;
+  letter-spacing: 1px;
+	}
+}
+.top_right_buffer {
+	margin-top: 70px;
+	ul {
+		padding: 0;
+		margin: 0 0 40px;
+	}
+}
+.products_row {
+	h2 {
+		color: #919CA1;
+		border-bottom: dotted 1px #919CA1;
+		font-weight: 300;
+		font-size: 16px;
+	}
+	p {
+		font-size: 12px;
+	}
+	div {
+		margin: 0 1.5%%;
+	}
+}
+/*Projects*/
+.project_cards {
+	div {
+		box-shadow: $shadow;
+		background-color: #ddd;
+		border-radius: 5px;
+		border: 1px solid #D3CECE;
+		height: 450px;
+		margin: 40px 1.5% 40px;
+		h3 {
+			font-size: 16px;
+			font-weight: 300;
+			padding: 0 0 10px 0;
+			border-bottom: 1px solid #fff;
+		}
+		h4 {
+			background-color: #F5F5F5;
+  		color: #777;
+			float: right;
+			font-size: 12px;
+			padding: 5px;
+			margin-right: -24px;
+			margin-top: 0;
+		}
+		img {
+			width: 100%;
+	 	} 
+		p {
+			font-weight: 300;
+			font-size: 12px;
+		}
+	}
+}
+/*About*/
+.about_columns {
+
+	div {
+		padding-right: 0;
+		img {
+
+		}
+		h3 {
+			font-weight: 300;
+			margin: 10px 0;
+			border-bottom: 1px dotted #666;
+		}
+		p {
+			font-weight: 300;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+}
+/*HOME*/
+.homepage {
+
+}
+.summary_header {
+	font-family: 'Volkhov',serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #666;
+  margin-top: 55px;
+}
+.home_information {
+	border-left: 3px solid #000;
+	padding: 5px 0px 5px 30px;
+}
+.contact_info {
+	background-color: #005D88;
+  float: right;
+  height: 300px;
+  margin: 30px 0;;
+  padding: 0 0 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+	p {
+		font-size: 12px;
+	  width: 250px;
+	  color: rgba(255,255,255,0.6);
+	  margin-bottom: 25px;
+	  margin-top: 100px;
+	  font-weight: 300;
+	  line-height: 18px;
+	  }
+	h2 {
+		 margin: 11px 0;
+	  font-weight: 700;
+	  color: #fff;
+	  font-size: 36px;
+	}
+	h3 {
+		font-weight: 300;
+	  font-size: 28px;
+	  margin: 0;
+	  color: #fff;
+	}
+}
+.four_grid {
+	div {
+		p {
+			padding: 0;
+			width: 100%;
+	  	padding: 12px;
+  		margin: 0;
+		}
+	}
+}
+.block_one, .block_two, .block_three, .block_four {
+	height: 230px;
+  width: 145px;
+  color: #fff;
+  margin: 1%;
+  p {
+  	background: rgba(0,0,0,0.6);
+  }
+} 
+.block_one {
+	background-image:image-url('products-services-fp.jpg');
+}
+.block_two {
+	background-image:image-url('projects-fp.jpg');
+}
+.block_three {
+	background-image:image-url('about-us-fp.jpg');
+}
+.block_four {
+	background-image:image-url('accreditations-fp.jpg');
+}
+
+
